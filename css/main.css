@@ -3,6 +3,7 @@
 @import url(../css/header/header.css);
 @import url(../css/content/content.css);
 @import url(../css/contacts/contacts.css);
+@import url(../css/footer/footer.css);
 
 body {
     font-family: "Gilroy", "Arial", sans-serif;

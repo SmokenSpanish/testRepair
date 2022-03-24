@@ -122,6 +122,59 @@
 </section>
     <section class="contacts">
         <h2 class="contacts__title main-content__title"><span class="main-content__line"></span>Связаться <span class="font-stroke"> с нами</span></h2>
+    <div class="d-flex justify-content-between">
+        <div class="contacts__container">
+            <h3 class="contacts__item">Офис</h3>
+            <p class="contacts__item-text">Москва ул. Уличная, д.1, оф.1</p>
+        
+            <h3 class="contacts__item">E-mail</h3>
+            <p class="contacts__item-text">company@company.ru</p>
+        
+            <h3 class="contacts__item">Социальные сети</h3>
+            <div class="d-flex">
+            <a href=""><div style="width: 30px; height: 30px; background-color: black;"></div></a>
+            <a href=""><div style="width: 30px; height: 30px; background-color: black;"></div></a>
+            <a href=""><div style="width: 30px; height: 30px; background-color: black;"></div></a>
+        </div>
+        </div>
+
+        <div class="contacts__container">
+            <h3 class="contacts__item">Режим работы</h3>
+            <p class="contacts__item-text">Пн-Вт: 10&#8304&#8304 — 19&#8304&#8304; Сб-Вс: 10&#8304&#8304 — 15&#8304&#8304</p>
+        
+            <h3 class="contacts__item">Телефон</h3>
+            <p class="contacts__item-text">8 (800) 900-00-00</p>
+        </div>
+
+        <div class="contacts__container">
+            <h3 class="contacts__item">Остались вопросы?</h3>
+            <form action="" class="contacts__form">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" class="contacts__input" id="name" placeholder="Иван Иванов">
+                </div>
+                <div class="form-group">
+                    <label for="email">Телефон / E-mail</label>
+                    <input type="email" class="contacts__input" id="email" placeholder="example@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваше сообщение</label>
+                    <input type="text" class="contacts__input" id="text" placeholder="Текст обращения" maxlength="43">
+                    <!-- декоративный file-input -->
+                    <div class="input__wrapper">
+                        <label for="file" class="input__file-button">
+                            <span class="input__file-icon-wrapper">
+                                <img class="input__file-icon" src="./images/Clip.svg" alt="Выбрать файл" width="18">
+                            </span>
+                        </label>
+                        <input type="file" class="form-control-file contacts__input input__file" id="file" placeholder="Файл">
+                    </div>
+                </div>
+                <p class="form__text">Нажимая на кнопку «Получить консультацию», вы соглашаетесь на<span class="form__text-ancor"> обработку персональных данных</span></p>
+                <button class="btn main__button form__button"><span class="button_active"></span>Получить консультацию</button>
+            </form>
+        </div>
+    </div>
     </section>
 </body>
 </html>

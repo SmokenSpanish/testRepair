@@ -136,6 +136,18 @@
     font-size: 20px;
 }
 
+.header-wrapper {
+    position: relative;
+}
+
+.header-wrapper_active {
+    background-color: Red;
+    width: 100%;
+    /* height: 100px; */
+    position: absolute;
+    z-index: 100;
+}
+
 .header__content li:last-of-type {
     border-right: none;
 }

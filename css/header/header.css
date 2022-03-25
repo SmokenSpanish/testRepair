@@ -21,8 +21,16 @@
     transition: .3s linear;
 }
 
-.nav-item:hover {
+.nav-item {
+    transition: opacity .3s;
+}
+
+.nav-item_active:hover {
     border-bottom: 1px solid black;
+}
+
+.nav-item_opacity:hover {
+    opacity: 0.4;
 }
 
 .navbar a:hover {
